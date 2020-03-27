@@ -9,7 +9,11 @@ getTheFizz.addEventListener("click",(event)=>{
     event.preventDefault();
     console.log(input.value);
     console.log(isNumber.test(input.value));
+    // i dont know how to generate the table :( this is pretty sad because the 
+    // challenge was solvable and fun
 
+    // here is the classic fizzbuzz solution, the only missing part was, as stated before
+    // the matrix
     if(isNumber.test(input.value)){
         let x = Number(input.value);
         for(var i = 1; i<x; i++){
